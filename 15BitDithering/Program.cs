@@ -37,7 +37,7 @@ namespace _15BitDithering
             }
         }
 
-        static void Dither(string path, string directory = null)
+        static void Dither(string path, string directory = "")
         {
             var fileName = Path.GetFileName(path);
             
